@@ -1,1 +1,1 @@
-## MY first Machine Learning projects 
+## My first Machine Learning projects 
