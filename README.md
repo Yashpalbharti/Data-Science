@@ -5,4 +5,16 @@
 
 
 Arthmatic Opertion Fuctions
+- For Addition "+"
+- For Substraction "_"
+- For Multiplication "*"
+- for division "/"
+- Without decimal of it OR Floor Division "//"
+- For Modulas/ Remider "%"
+- For exponent "**"
+
+
+# Addition
+23 + 4
+
  
