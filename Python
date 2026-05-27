@@ -1,19 +1,64 @@
-# Python for data Science
-1. Python Variables
-2. Python Data Types
-3. Python Operators
-4. Conditional statements
-5. Loops
-6. Functions
-7. Lists
-8. Tuples
-9. Dictionaries
-10. NumPy for Numerical computing
-11. Pandas for Data manipulation
+# Python for Data Science
 
+# Topics:
+# 1. Python Variables
+# 2. Python Data Types
+# 3. Python Operators
+# 4. Conditional statements
+# 5. Loops
+# 6. Functions
+# 7. Lists
+# 8. Tuples
+# 9. Dictionaries
+# 10. NumPy for Numerical computing
+# 11. Pandas for Data manipulation
+
+"""Example: Python Variables and assignment
+
+This file contains simple examples demonstrating variable
+assignment and printing values. It is valid Python code.
+"""
+
+##### Assignment of variables
 x = 5
 name = "Yashpal"
 print(x)
 print(name)
 
-# 
+##### Asssigning same value to multiple variables
+a = b = c = 10
+print(a, b, c)
+
+####  Dynamic typing in python
+x = 10
+x = "Now I'm a AI Engineer"
+print(x)
+
+
+##### Understanding variable types
+x = 10
+y = x 
+y = y + 6
+print("value of x:", x) # ouput: value of x: 10
+print("value of y:", y) # Output: value of y: 16
+
+##### Deleting a variable
+x = 10
+del x
+# print(x) # This will raise an error because x has been deleted    
+
+##Pracatical Example: Using variables to store and manipulate data
+# Calculate the area of a rectangle
+length = 5
+width = 3
+area = length * width
+print("Area of the rectangle:", area) # Output: Area of the rectangle: 15
+
+## Swapping Two variables
+a = 10
+b = 20
+print(a, b) # output: 10 20
+
+#Counting the number of characters in a string
+name = "Yashpal"
+print("Number of characters in the name:", len(name)) # Output: Number of Characters in the name: 7
